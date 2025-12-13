@@ -1,0 +1,123 @@
+/* 
+зелёный - (1, 27, 1)
+ораньжевый - (168, 109, 0)
+*/
+
+
+body {
+    margin: 0 auto;
+    background-color: black;
+    color: rgb(168, 109, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+::selection {
+    background-color: rgb(168, 109, 0);
+    color: rgb(1, 27, 1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.wallpapers {
+    width: 39.5%;
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 0 0 50px 30px rgba(36, 36, 36, 0.616);
+}
+
+img {
+    transition: 0.3s; 
+}
+
+img:hover {
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+
+#up_btn {
+    text-align: center;
+    background-color: rgb(1, 27, 1);
+    width: 30%;
+    padding: 5%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 30%;
+    transition: 0.5s; 
+}
+
+#up_link {
+    color: rgb(168, 109, 0);
+}
+
+#up_btn:hover {
+    margin-bottom: 6%;
+    margin-top: 4%;
+}
+
+.wallpaper_table {
+    width: 80%;
+    margin-left: 8%;
+    text-align: center;
+    
+}
+
+table {
+    background-color: rgb(1, 27, 1);
+    border-radius: 20px;
+    border-collapse: collapse; 
+}
+
+td, th {
+    font-size: larger;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+caption {
+    font-size: 30px;
+    padding-bottom: 3%;
+}
+
+#downloadLink {
+    color: black;
+}
+
+footer {
+    background-color: rgb(1, 27, 1);
+    margin: 0 10% 0 10%;
+    padding: 3%;
+    border-radius: 20px 20px 0 0;
+}
+
+#my_github {
+    color: rgb(168, 109, 0);
+}
+
+#categories {
+    background-color: rgb(1, 27, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 25%;
+    padding: 10px 0;
+}
+
+.category {
+    color: rgb(168, 109, 0);
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 20px;
+    transition: 0.5s; 
+}
+
+.category:hover {
+    background-color: rgb(168, 109, 0);
+    color: rgb(1, 27, 1);
+    cursor: pointer;
+}
