@@ -17,9 +17,11 @@ function renderWallpapers(list) {
     wallpapers.innerHTML = '';
     list.forEach((element, index) => {
         wallpapers.innerHTML += `
-            <a href="${element.path}" download="${element.name}" id="downloadLink">
-                <img class="wallpapers" src="${element.path}" alt="${element.name}">
-            </a>
+            <span class="incoming">
+                <a href="${element.path}" download="${element.name}" id="downloadLink">
+                    <img class="wallpapers" src="${element.path}" alt="${element.name}">
+                </a>
+            </span>
         `;
     })
 }
